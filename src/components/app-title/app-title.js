@@ -4,7 +4,7 @@ import React from 'react';
 import './app-title.css';
 
 const AppTitle = () => {
-    const title = 'This is ToDo App';
+    const title = 'ToDo App';
     return <h1 className="appTitle">{ title }</h1>;
   }
   
