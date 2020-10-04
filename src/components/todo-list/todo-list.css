@@ -1,0 +1,36 @@
+.todo-list {
+    margin: 0; 
+    padding: 0; 
+    padding-bottom: 40px; 
+    border-bottom: 1px solid #bbbbbb
+}
+
+.todo-list__li {
+    list-style-type: none; 
+}
+
+.todo-list__li-content {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    background-color: white; 
+    border: 1px solid #bbbbbb; 
+    padding: 20px; 
+    font-size: 24px
+}
+
+.todo-list__button_green {
+    width: 30px; 
+    height: 30px; 
+    margin: 0 5px; 
+    background-color: green
+}
+
+.todo-list__button_red {
+    width: 30px; 
+    height: 30px; 
+    margin: 0 5px; 
+    background-color: red
+}
+
+

@@ -1,0 +1,33 @@
+.addItem {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    font-size: 24px; 
+    margin-top: 40px
+}
+
+.addItem__title {
+    margin: 0 50px
+}
+
+.addItem__input {
+    width: 600px; 
+    font-size: 24px; 
+    padding: 10px
+}
+
+.addItem__buttonDiv {
+    display: flex; 
+    justify-content: flex-end; 
+    align-items: center; 
+    margin: 20px 0
+}
+
+.addItem__button {
+    /* background-color: #33bb77;  */
+    background-color: #3377bb; 
+    color: white; 
+    font-size: 24px; 
+    padding: 10px; 
+    border-radius: 5px
+}

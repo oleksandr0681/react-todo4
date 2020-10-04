@@ -1,0 +1,14 @@
+.save {
+    display: flex; 
+    justify-content: flex-end; 
+    align-items: center; 
+    margin: 20px 0
+}
+
+.save__button {
+    background-color: #3377bb; 
+    color: white; 
+    font-size: 24px; 
+    padding: 10px; 
+    border-radius: 5px
+}

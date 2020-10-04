@@ -1,0 +1,12 @@
+.app {
+    margin: 0 auto;
+    max-width: 800px; 
+    background-color: #eeeeee;
+    padding: 30px;
+    border-radius: 5px
+}
+
+.picture {
+    width: 100px;
+    height: auto;
+}

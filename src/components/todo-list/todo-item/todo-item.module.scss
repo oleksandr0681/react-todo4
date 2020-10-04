@@ -1,0 +1,39 @@
+.todoItem {
+    list-style-type: none; 
+
+    &Done {
+        text-decoration: line-through;
+    }
+
+    &Important {
+        font-weight: bold;
+    }
+
+    &Delete {
+        border: 1px solid red;
+    }
+
+    &__content {
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center;
+        background-color: white; 
+        border: 1px solid #bbbbbb; 
+        padding: 20px; 
+        font-size: 24px;    
+    }
+
+    &__buttonGreen {
+        width: 30px; 
+        height: 30px; 
+        margin: 0 5px; 
+        background-color: green
+    }
+
+    &__buttonRed {
+        width: 30px; 
+        height: 30px; 
+        margin: 0 5px; 
+        background-color: red
+    }
+}
